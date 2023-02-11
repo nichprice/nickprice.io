@@ -1,0 +1,22 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+
+datasource db {
+  provider = "mysql"
+  url = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+
+model Projects {
+  id              Int       @default(autoincrement()) @id
+  title           String    @db.VarChar(255)
+  about           String    @db.VarChar(255)
+  tech            String    @db.VarChar(255)
+  youtube         String    @db.VarChar(255)
+}
