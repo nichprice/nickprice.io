@@ -13,7 +13,7 @@ datasource db {
 }
 
 
-model Projects {
+model Project {
   id              Int       @default(autoincrement()) @id
   title           String    @db.VarChar(255)
   about           String    @db.VarChar(255)
