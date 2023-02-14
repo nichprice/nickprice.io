@@ -1,6 +1,7 @@
+"use client";
 import useSWR from "swr";
 
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
+const fetcher = (...params) => fetch(...params).then((res) => res.json());
 
 export default function portfolio() {
   const { data, error } = useSWR("/api/projects", fetcher);
