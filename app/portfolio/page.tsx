@@ -12,7 +12,11 @@ export default function portfolio() {
   return (
     <>
       <h1 className="text-3xl font-bold underline">My Portfolio</h1>
-      <p>{data.title}</p>
+      <div>
+        {Object.entries(data).map((title) => {
+          return <p>{title}</p>;
+        })}
+      </div>
     </>
   );
 }
