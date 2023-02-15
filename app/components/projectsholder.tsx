@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ProjectCard from "./projectcard";
 
 export default function ProjectsHolder() {
-  const [projects, setData] = useState(null);
+  const [projects, setData] = useState<any[]>([]);
   const [isLoading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function ProjectsHolder() {
 
   return (
     <div>
-      {projects.map((project) => (
+      {projects.map((project: { id: React.Key | null | undefined }) => (
         <ProjectCard key={project.id} project={project} />
       ))}
     </div>
