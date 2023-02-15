@@ -1,21 +1,12 @@
 "use client";
-import useSWR from "swr";
+import ProjectsHolder from "../components/projectsholder";
 
-const fetcher = (...params) => fetch(...params).then((res) => res.json());
-
-export default function portfolio() {
-  const { data, error } = useSWR("/api/projects", fetcher);
-
-  if (error) return <div>Failed to load.</div>;
-  if (!data) return <div>Loading...</div>;
-
+export default function PortfolioPage() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">My Portfolio</h1>
+      <h1 className="text-3xl font-bold underline">My portfolio so far...</h1>
       <div>
-        {Object.entries(data).map((title) => {
-          return <p>{title}</p>;
-        })}
+        <ProjectsHolder />
       </div>
     </>
   );
