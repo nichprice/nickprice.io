@@ -18,8 +18,6 @@ export default function ProjectsHolder() {
   if (isLoading) return <p>Loading...</p>;
   if (!projects) return <p>No profile data</p>;
 
-  console.log(projects);
-
   return (
     <div>
       {projects.map((project: { id: React.Key | null | undefined }) => (

@@ -4,9 +4,6 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const navItems = {
-  "/": {
-    name: "home",
-  },
   about: {
     name: "about",
   },
@@ -20,15 +17,24 @@ const navItems = {
 
 export default function Navbar() {
   return (
-    <nav>
-      {Object.entries(navItems).map(([path, { name }]) => {
-        const isActive = path;
-        return (
-          <Link key={path} href={path}>
-            {name}
+    <main className="bg-white px-12">
+      <section className="min-h-screen">
+        <nav className="py-10 mb-12 flex justify-between">
+          <Link key="/" href="/">
+            home
           </Link>
-        );
-      })}
-    </nav>
+          <ul className="flex items-center">
+            {Object.entries(navItems).map(([path, { name }]) => {
+              const isActive = path;
+              return (
+                <Link className="px-8" key={path} href={path}>
+                  {name}
+                </Link>
+              );
+            })}
+          </ul>
+        </nav>
+      </section>
+    </main>
   );
 }
