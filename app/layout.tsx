@@ -7,17 +7,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
+    <html lang="en">
       <head>
-        <title>Nicholas Price's Portfolio</title>
+        <title>nickprice.io</title>
       </head>
 
-      <main className="bg-white px-12">
-        <section className="min-h-screen">
-          <Navbar />
-          <div>{children}</div>
-        </section>
-      </main>
-    </div>
+      <body>
+        <Navbar />
+        <main className="bg-white px-12">
+          <section className="min-h-screen">
+            <div>{children}</div>
+          </section>
+        </main>
+      </body>
+    </html>
   );
 }
