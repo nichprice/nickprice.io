@@ -3,18 +3,6 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-const navItems = {
-  about: {
-    name: "about",
-  },
-  blog: {
-    name: "blog",
-  },
-  portfolio: {
-    name: "porfolio",
-  },
-};
-
 export default function Navbar() {
   return (
     <nav className="py-5 px-6 mb-12 flex justify-between bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-orange-400 to-sky-400">
