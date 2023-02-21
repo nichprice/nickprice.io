@@ -14,11 +14,7 @@ export default function RootLayout({
 
       <body>
         <Navbar />
-        <main className="bg-white px-12">
-          <section className="min-h-screen">
-            <div>{children}</div>
-          </section>
-        </main>
+        <main className="bg-white px-12">{children}</main>
       </body>
     </html>
   );
