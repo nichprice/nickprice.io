@@ -1,31 +1,50 @@
-import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
+import {
+  AiFillLinkedin,
+  AiFillYoutube,
+  AiFillGithub,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 import Image from "next/image";
 import dinner_pic from "public/photos/dinner-pic.jpeg";
 
 export default function Home() {
   return (
-    <section className="mx-auto px-40 rounded-3xl bg-orange-200 w-max h-max py-10">
+    <section className="mx-auto px-40 w-max h-max py-10">
       <div>
         <h2 className="text-5xl font-medium flex justify-center text-sky-600 ">
           Nick Price
         </h2>
-        <h3 className="text-2xl font-medium flex justify-center text-gray-600 opacity-80">
+        <h3 className="py-3 text-2xl font-medium flex justify-center text-gray-600 opacity-80">
           Developer
         </h3>
       </div>
-      <div className="py-3">
+      <div className="">
         <Image
           src={dinner_pic}
           alt="headshot"
-          className="mx-auto rounded-full w-80 h-80"
+          className="mx-auto rounded-full w-64 h-64"
         />
       </div>
-      <div className="text-5xl flex justify-center gap-8 py-5 opacity-90">
+      <div>
+        <h2 className="text-3xl font-semibold pt-8 pb-6">Hi, I'm Nick.</h2>
+        <ul className="w-[25rem] font-normal leading-relaxed">
+          <li className="pb-4">Welcome to my website!</li>
+          <li>
+            I studied fullstack development at the Flatiron School and completed
+            my undergrad at Rutgers University while competing as member of the
+            Cross Country and Track and Field teams. Learn more about me here.
+          </li>
+        </ul>
+      </div>
+      <div className="text-5xl flex justify-center gap-8 py-8 opacity-90">
         <a
           href="https://www.linkedin.com/in/price-nicholas/"
           className="text-blue-800"
         >
           <AiFillLinkedin />
+        </a>
+        <a href="https://twitter.com/nickpriceio" className="text-sky-500">
+          <AiFillTwitterCircle />
         </a>
         <a href="https://github.com/nichprice">
           <AiFillGithub />
@@ -36,12 +55,6 @@ export default function Home() {
         >
           <AiFillYoutube />
         </a>
-      </div>
-      <div>
-        <h3 className="flex justify-center">Hi, I'm Nick</h3>
-        <ul>
-          <li>Welcome to my website</li>
-        </ul>
       </div>
     </section>
   );
