@@ -27,12 +27,21 @@ export default function Home() {
       </div>
       <div>
         <h2 className="text-3xl font-semibold pt-8 pb-6">Hi, I'm Nick.</h2>
-        <ul className="w-[25rem] font-normal leading-relaxed">
+        <ul className="w-[25rem] font-normal leading-relaxed pb-4">
           <li className="pb-4">Welcome to my website!</li>
-          <li>
-            I studied fullstack development at the Flatiron School and completed
-            my undergrad at Rutgers University while competing as member of the
-            Cross Country and Track and Field teams. Learn more about me here.
+          <li className="pb-4">
+            I studied fullstack development at the Flatiron School and earned my
+            BS in Kinesiology and my BA in Psychology at Rutgers University
+            while competing as member of the Cross Country and Track and Field
+            teams.
+          </li>
+          <li className="pb-4">
+            TLDR: I really like to try and understand things.
+          </li>
+          <li className="pb-4">
+            <a href="/about" className="text-orange-400">
+              Learn more about me here.
+            </a>
           </li>
         </ul>
       </div>

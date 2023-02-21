@@ -23,8 +23,10 @@ export default function PortfolioPage() {
   if (!projects) return <p>No profile data</p>;
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Everything so far</h1>
+    <div className="mx-24">
+      <h1 className="text-3xl font-semibold ">
+        Here are some things that I've worked on:
+      </h1>
       <div>
         {projects.map((project: { id: React.Key | null | undefined }) => (
           <ProjectCard key={project.id} project={project} />
