@@ -24,7 +24,7 @@ export default function PortfolioPage() {
 
   return (
     <div className="mx-24">
-      <h1 className="text-3xl font-semibold ">
+      <h1 className="text-5xl font-medium flex justify-center text-sky-600">
         Here are some things that I've worked on:
       </h1>
       <div>
