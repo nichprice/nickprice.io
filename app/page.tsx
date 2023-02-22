@@ -28,7 +28,7 @@ export default function Home() {
       <div>
         <h2 className="text-3xl font-semibold pt-8 pb-6">Hi, I'm Nick.</h2>
         <ul className="w-[25rem] font-normal leading-relaxed pb-4">
-          <li className="pb-4">Welcome to my website!</li>
+          <li className="pb-4">Thanks for stopping by!</li>
           <li className="pb-4">
             I studied fullstack development at the Flatiron School and earned
             both a BS in Kinesiology and a BA in Psychology at Rutgers

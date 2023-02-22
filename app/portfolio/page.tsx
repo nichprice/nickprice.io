@@ -16,9 +16,6 @@ export default function PortfolioPage() {
       });
   }, []);
 
-  console.log("hi");
-  console.log(projects);
-
   if (isLoading) return <p>Loading...</p>;
   if (!projects) return <p>No profile data</p>;
 
