@@ -30,13 +30,14 @@ export default function Home() {
         <ul className="w-[25rem] font-normal leading-relaxed pb-4">
           <li className="pb-4">Thanks for stopping by!</li>
           <li className="pb-4">
-            I studied fullstack development at the Flatiron School and earned
-            both a BS in Kinesiology and a BA in Psychology at Rutgers
-            University while competing as member of the Cross Country and Track
-            and Field teams.
+            I studied Software Engineering at the Flatiron School and earned
+            degrees in both Kinesiology and Psychology from Rutgers University
+            while competing first as member and eventually captain, of the Men's
+            Cross Country and Track and Field teams.
           </li>
           <li className="pb-4">
-            TLDR: I really like to try and understand things.
+            TLDR: I really like to try to understand things and to help others
+            do that same.
           </li>
           <li className="pb-4">
             <a href="/about" className="text-orange-400 hover:opacity-60">
