@@ -16,15 +16,31 @@ export default function PortfolioPage() {
       });
   }, []);
 
-  if (isLoading) return <p>Loading...</p>;
-  if (!projects) return <p>No profile data</p>;
-
   return (
-    <div className="mx-24">
-      <h1 className="text-5xl font-medium flex justify-center text-sky-600">
-        Here are some things that I've worked on:
-      </h1>
-      <div>
+    <div className="py-10">
+      <div className="max-w-xl mx-auto">
+        <h1 className="text-5xl font-medium flex justify-center text-sky-600 pb-10">
+          My Work
+        </h1>
+        <p className="font-normal leading-relaxed  pb-4">
+          I wrote my first line of code in late 2021 and although I'm still
+          cooking some of my favorite recipes that were the center-piece of my
+          <span>
+            <a
+              href="https://github.com/nichprice/odin-recipes"
+              className="text-orange-400 hover:opacity-60"
+            >
+              {" "}
+              first ever project
+            </a>
+          </span>
+          , it's amazing how much I've learned and how far my abilities have
+          progressed. I'm still very early in my journey and I know I have a
+          long way to go, but I'm excited to continue to learn and develop my
+          knowledge and skills.
+        </p>
+      </div>
+      <div className="max-w-3xl mx-auto">
         {projects.map((project: { id: React.Key | null | undefined }) => (
           <ProjectCard key={project.id} project={project} />
         ))}

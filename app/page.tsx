@@ -9,7 +9,7 @@ import dinner_pic from "public/photos/dinner-pic.jpeg";
 
 export default function Home() {
   return (
-    <section className="mx-auto px-40 w-max h-max py-10 shadow-md">
+    <section className="mx-auto px-40 py-10 ">
       <div>
         <h1 className="text-5xl font-medium flex justify-center text-sky-600 ">
           Nick Price
@@ -25,19 +25,19 @@ export default function Home() {
           className="mx-auto rounded-full w-64 h-64"
         />
       </div>
-      <div>
+      <div className="max-w-lg mx-auto">
         <h2 className="text-3xl font-semibold pt-8 pb-6">Hi, I'm Nick.</h2>
-        <ul className="w-[25rem] font-normal leading-relaxed pb-4">
+        <ul className="font-normal leading-relaxed pb-4">
           <li className="pb-4">Thanks for stopping by!</li>
           <li className="pb-4">
             I studied Software Engineering at the Flatiron School and earned
             degrees in both Kinesiology and Psychology from Rutgers University
-            while competing first as member and eventually captain, of the Men's
-            Cross Country and Track and Field teams.
+            while competing first, as member, and eventually as captain, of the
+            Men's Cross Country and Track and Field teams.
           </li>
           <li className="pb-4">
             TLDR: I really like to try to understand things and to help others
-            do that same.
+            do the same.
           </li>
           <li className="pb-4">
             <a href="/about" className="text-orange-400 hover:opacity-60">

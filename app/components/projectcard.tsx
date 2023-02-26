@@ -3,23 +3,32 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function ProjectCard({ project }: { project: any }) {
   return (
-    <div className="h-[28rem] min-w-min rounded-lg shadow-md py-5 px-5 my-5 mx-auto flex justify-center">
-      <div className="basis-1/3 mx-4 object-scale-down">
-        <h2 className="text-3xl font-bold pt-8 pb-6">{project.title}</h2>
-        <h4 className="text-xl font-semibold py-3">{project.tech}</h4>
-        <p className="text-lg ">{project.about}</p>
-        <div className=" justify-self-end">
-          <a
-            href="https://github.com/nichprice"
-            className="text-5xl flex justify-center text-[#171515] hover:opacity-80 "
-          >
-            <AiFillGithub />
-          </a>
+    <div className="rounded-2xl shadow-md p-10 my-10 hover:shadow-lg">
+      <div>
+        <div className="pb-8 flex">
+          <div className="">
+            <a
+              href="https://github.com/nichprice"
+              className="text-5xl text-[#171515] hover:opacity-80 "
+            >
+              <AiFillGithub />
+            </a>
+          </div>
+          <div className="px-3">
+            <a className="text-3xl font-bold">{project.title}</a>
+          </div>
         </div>
-      </div>
-      <div className="basis-2/3">
-        <div className="mx-10 my-10">
-          <YouTube videoId={project.youtube} c />
+
+        <div className="flex justify-center">
+          <YouTube videoId={project.youtube} />
+        </div>
+        <div className="">
+          <h4 className="text-2xl font-semibold flex justify-center pt-8 pb-5">
+            {project.tech}
+          </h4>
+          <p className="text-lg text-center max-w-md mx-auto flex justify-center">
+            {project.about}
+          </p>
         </div>
       </div>
     </div>
