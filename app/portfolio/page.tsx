@@ -24,7 +24,8 @@ export default function PortfolioPage() {
         </h1>
         <p className="font-normal leading-relaxed  pb-4">
           I wrote my first line of code in late 2021 and although I'm still
-          cooking some of my favorite recipes that were the center-piece of my
+          writing HTML and cooking some of my favorite recipes that were the
+          center-piece of my
           <span>
             <a
               href="https://github.com/nichprice/odin-recipes"
@@ -36,7 +37,7 @@ export default function PortfolioPage() {
           </span>
           , it's amazing how much I've learned and how far my abilities have
           progressed. I'm still very early in my journey and I know I have a
-          long way to go, but I'm excited to continue to learn and develop my
+          long way to go, but I'm so excited to continue to learn and develop my
           knowledge and skills.
         </p>
       </div>

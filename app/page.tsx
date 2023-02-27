@@ -32,7 +32,7 @@ export default function Home() {
           <li className="pb-4">
             I studied Software Engineering at the Flatiron School and earned
             degrees in both Kinesiology and Psychology from Rutgers University
-            while competing first, as member, and eventually as captain, of the
+            while competing first as a member and eventually as captain, of the
             Men's Cross Country and Track and Field teams.
           </li>
           <li className="pb-4">
