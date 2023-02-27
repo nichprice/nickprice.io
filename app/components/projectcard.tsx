@@ -3,7 +3,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function ProjectCard({ project }: { project: any }) {
   return (
-    <div className="rounded-2xl shadow-md p-10 my-10 hover:shadow-lg">
+    <div className="rounded-xl shadow-md p-10 my-10 hover:shadow-lg">
       <div>
         <div className="pb-8 flex">
           <div className="">

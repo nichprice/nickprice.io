@@ -1,4 +1,5 @@
 "use client";
+import { queryBuilder } from "@/lib/planetscale";
 import React, { useEffect, useState } from "react";
 import ProjectCard from "../components/projectcard";
 

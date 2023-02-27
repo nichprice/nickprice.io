@@ -7,6 +7,7 @@ interface ProjectsTable {
   about: string;
   tech: string;
   youtube: string;
+  github: string;
 }
 
 interface Database {
