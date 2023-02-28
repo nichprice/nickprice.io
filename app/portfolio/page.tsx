@@ -1,5 +1,5 @@
 "use client";
-import { queryBuilder } from "@/lib/planetscale";
+
 import React, { useEffect, useState } from "react";
 import ProjectCard from "../components/projectcard";
 
@@ -23,7 +23,7 @@ export default function PortfolioPage() {
         <h1 className="text-5xl font-medium flex justify-center text-sky-600 pb-10">
           My Work
         </h1>
-        <p className="font-normal leading-relaxed  pb-4">
+        <p className="font-normal leading-relaxed text-center pb-4">
           I wrote my first line of code in late 2021 and although I'm still
           writing HTML and cooking some of my favorite recipes that were the
           center-piece of my
@@ -36,10 +36,9 @@ export default function PortfolioPage() {
               first ever project
             </a>
           </span>
-          , it's amazing how much I've learned and how far my abilities have
-          progressed. I'm still very early in my journey and I know I have a
-          long way to go, but I'm so excited to continue to learn and develop my
-          knowledge and skills.
+          , my skills and knowledge have come a long way since then. I'm still
+          very early in my journey and I know I have a long way to go, but I'm
+          so excited to continue to learn and develop my knowledge and skills.
         </p>
       </div>
       <div className="max-w-3xl mx-auto">
