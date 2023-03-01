@@ -46,6 +46,7 @@ export default function Home() {
           </li>
         </ul>
       </div>
+
       <div className="text-5xl flex justify-center gap-8 py-8 ">
         <a
           href="https://www.linkedin.com/in/price-nicholas/"

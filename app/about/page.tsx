@@ -4,15 +4,22 @@ import pasta from "public/photos/pasta.jpg";
 import trivia from "public/photos/trivia_team.jpeg";
 import f1 from "public/photos/f1.jpeg";
 import Image from "next/image";
+// import React, { useEffect, useState } from "react";
 
-const abouts = {
-  baking: { desc: "baking", image: bread },
-  snow: { desc: "skiing/snowboarding", image: ski_lift },
-  cooking: { desc: "cooking", image: pasta },
-  f1: { desc: "f1", image: f1 },
-};
+// const abouts = {
+//   baking: { desc: "baking", image: bread },
+//   snow: { desc: "skiing/snowboarding", image: ski_lift },
+//   cooking: { desc: "cooking", image: pasta },
+//   f1: { desc: "f1", image: f1 },
+// };
 
 export default function About() {
+  // const [abouts, setData] = useState<any[]>([]);
+
+  // useEffect(() => {
+  //   fetch();
+  // });
+
   return (
     <div>
       <div>
@@ -23,27 +30,7 @@ export default function About() {
           A little bit about me
         </p>
       </div>
-      <div>
-        <h3 className="text-center">Tech I've worked with</h3>
-        <ul className="flex flex-col gap-10 py-10 flex-col flex-wrap">
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>React</li>
-          <li>Python</li>
-          <li>Django</li>
-          <li>Node.js</li>
-          <li>Prisma</li>
-          <li>Ruby</li>
-          <li>Ruby on Rails</li>
-          <li>PlanetScale</li>
-          <li>SQL</li>
-          <li>MySQL</li>
-          <li>SQLite</li>
-          <li>CSS</li>
-          <li>Tailwind</li>
-          <li>HTML</li>
-        </ul>
-      </div>
+
       <div>
         <h3>For fun...</h3>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">

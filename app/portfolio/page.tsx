@@ -41,6 +41,60 @@ export default function PortfolioPage() {
           so excited to continue to learn and develop my knowledge and skills.
         </p>
       </div>
+
+      <div className="px-10">
+        <h3 className="text-center">Tech I've worked with</h3>
+        <ul className="grid grid-cols-3 gap-2">
+          <div className="mx-auto">
+            <li>JavaScript</li>
+          </div>
+          <div className="mx-auto">
+            <li>TypeScript</li>
+          </div>
+          <div className="mx-auto">
+            <li>React</li>
+          </div>
+          <div className="mx-auto">
+            <li>Python</li>
+          </div>
+          <div className="mx-auto">
+            <li>Django</li>
+          </div>
+          <div className="mx-auto">
+            <li>Node.js</li>
+          </div>
+          <div className="mx-auto">
+            <li>Prisma</li>
+          </div>
+          <div className="mx-auto">
+            <li>Ruby</li>
+          </div>
+          <div className="mx-auto">
+            <li>Ruby on Rails</li>
+          </div>
+          <div className="mx-auto">
+            <li>PlanetScale</li>
+          </div>
+          <div className="mx-auto">
+            <li>SQL</li>
+          </div>
+          <div className="mx-auto">
+            <li>MySQL</li>
+          </div>
+          <div className="mx-auto">
+            <li>SQLite</li>
+          </div>
+          <div className="mx-auto">
+            <li>CSS</li>
+          </div>
+          <div className="mx-auto">
+            <li>Tailwind</li>
+          </div>
+          <div className="mx-auto">
+            <li>HTML</li>
+          </div>
+        </ul>
+      </div>
       <div className="max-w-3xl mx-auto">
         {projects.map((project: { id: React.Key | null | undefined }) => (
           <ProjectCard key={project.id} project={project} />
