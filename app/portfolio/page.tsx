@@ -5,6 +5,7 @@ import ProjectCard from "../components/projectcard";
 
 export default function PortfolioPage() {
   const [projects, setData] = useState<any[]>([]);
+  const [techs, setTechs] = useState<any[]>([]);
   const [isLoading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -14,6 +15,14 @@ export default function PortfolioPage() {
       .then((projects) => {
         setData(projects);
         setLoading(false);
+      });
+  }, []);
+
+  useEffect(() => {
+    fetch("/api/techs")
+      .then((res) => res.json())
+      .then((techs) => {
+        setTechs(techs);
       });
   }, []);
 
@@ -43,57 +52,12 @@ export default function PortfolioPage() {
       </div>
 
       <div className="px-10">
-        <h3 className="text-center">Tech I've worked with</h3>
-        <ul className="grid grid-cols-3 gap-2">
-          <div className="mx-auto">
-            <li>JavaScript</li>
-          </div>
-          <div className="mx-auto">
-            <li>TypeScript</li>
-          </div>
-          <div className="mx-auto">
-            <li>React</li>
-          </div>
-          <div className="mx-auto">
-            <li>Python</li>
-          </div>
-          <div className="mx-auto">
-            <li>Django</li>
-          </div>
-          <div className="mx-auto">
-            <li>Node.js</li>
-          </div>
-          <div className="mx-auto">
-            <li>Prisma</li>
-          </div>
-          <div className="mx-auto">
-            <li>Ruby</li>
-          </div>
-          <div className="mx-auto">
-            <li>Ruby on Rails</li>
-          </div>
-          <div className="mx-auto">
-            <li>PlanetScale</li>
-          </div>
-          <div className="mx-auto">
-            <li>SQL</li>
-          </div>
-          <div className="mx-auto">
-            <li>MySQL</li>
-          </div>
-          <div className="mx-auto">
-            <li>SQLite</li>
-          </div>
-          <div className="mx-auto">
-            <li>CSS</li>
-          </div>
-          <div className="mx-auto">
-            <li>Tailwind</li>
-          </div>
-          <div className="mx-auto">
-            <li>HTML</li>
-          </div>
-        </ul>
+        <h3 className=" py-2">Tech I've worked with:</h3>
+        <div className="grid grid-cols-3">
+          {techs.map((t: { id: React.Key | null | undefined }) => (
+            <li>{t.tech}</li>
+          ))}
+        </div>
       </div>
       <div className="max-w-3xl mx-auto">
         {projects.map((project: { id: React.Key | null | undefined }) => (
