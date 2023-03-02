@@ -14,10 +14,21 @@ datasource db {
 
 
 model Project {
-  id              Int       @id
-  title           String    @db.VarChar(255)
-  about           String    @db.VarChar(255)
-  tech            String    @db.VarChar(255)
-  youtube         String    @db.VarChar(255)
-  github          String    @db.VarChar(255)
+  id          Int       @id
+  title       String    @db.VarChar(255)
+  about       String    @db.VarChar(255)
+  tech        String    @db.VarChar(255)
+  youtube     String    @db.VarChar(255)
+  github      String    @db.VarChar(255)
+}
+
+model Abouts {
+  id          Int       @id
+  pic         String
+  caption     String    @db.VarChar(255)  
+}
+
+model Techs {
+  id          Int       @id
+  tech        String    @db.VarChar(255)
 }
