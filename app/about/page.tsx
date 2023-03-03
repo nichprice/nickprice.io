@@ -22,7 +22,7 @@ export default function About() {
 
   return (
     <div>
-      <h1>Page under construction</h1>
+      <h1 className="text-3xl font-bold underline">Page under construction</h1>
       <div>
         <h1 className="text-5xl font-medium flex justify-center text-sky-600 pb-10">
           About Me

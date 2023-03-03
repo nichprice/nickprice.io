@@ -7,7 +7,7 @@ import Link from "next/link";
 const navItems = {
   "/about": { name: "about" },
   "/portfolio": { name: "portfolio" },
-  "/blog": { name: "blog" },
+  // "/blog": { name: "blog" },
 };
 
 export default function Navbar() {
@@ -40,6 +40,14 @@ export default function Navbar() {
             </div>
           );
         })}
+        <div>
+          <Link
+            href="https://medium.com/@price.nich"
+            className="text-white px-3 text-lg hover:opacity-70"
+          >
+            blog
+          </Link>
+        </div>
       </div>
     </nav>
   );
