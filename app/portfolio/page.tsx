@@ -54,7 +54,7 @@ export default function PortfolioPage() {
       <div className="px-10">
         <h3 className="text-center py-2">Tech I've worked with:</h3>
         <div className="mx-auto grid grid-cols-3 max-w-md">
-          {techs.map((t: { id: React.Key | null | undefined }) => (
+          {techs.map((t) => (
             <li>{t.tech}</li>
           ))}
         </div>
