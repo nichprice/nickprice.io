@@ -52,7 +52,7 @@ export default function PortfolioPage() {
       </div>
 
       <div className="px-10">
-        <h3 className="text-center py-2">Tech I've worked with:</h3>
+        <h3 className="text-center py-2">Some tech I've worked with:</h3>
         <div className="mx-auto grid grid-cols-3 max-w-md">
           {techs.map((t) => (
             <li>{t.tech}</li>

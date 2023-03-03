@@ -7,7 +7,6 @@ import Link from "next/link";
 const navItems = {
   "/about": { name: "about" },
   "/portfolio": { name: "portfolio" },
-  // "/blog": { name: "blog" },
 };
 
 export default function Navbar() {

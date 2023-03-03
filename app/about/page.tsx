@@ -34,7 +34,7 @@ export default function About() {
 
       <div>
         <h3>For fun...</h3>
-        <div>
+        <div className="grid grid-cols-3">
           {abouts.map((about: { id: React.Key | null | undefined }) => (
             <Abtmeblocks key={about.id} about={about} />
           ))}
