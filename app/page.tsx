@@ -28,7 +28,7 @@ export default function Home() {
       <div className="max-w-lg mx-auto">
         <h2 className="text-3xl font-semibold pt-8 pb-6">Hi, I'm Nick.</h2>
         <ul className="font-normal leading-relaxed pb-4">
-          <li className="pb-4">Thanks for stopping by!</li>
+          <li className="pb-4">Welcome to my site!</li>
           <li className="pb-4">
             I studied Software Engineering at the Flatiron School and earned
             degrees in both Kinesiology and Psychology from Rutgers University
