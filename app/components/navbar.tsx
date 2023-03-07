@@ -11,14 +11,6 @@ const Navbar: React.FC = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleSidebarToggle = () => {
-    if (isOpen) {
-      toggleSidebar();
-    } else {
-      // do nothing
-    }
-  };
-
   const links = [
     { title: "About", url: "/about" },
     { title: "Portfolio", url: "/portfolio" },
@@ -26,7 +18,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className="bg-sky-500 text-white flex items-center justify-between py-3 px-6">
+    <nav className="bg-sky-500 text-white flex items-center justify-between py-3 px-16">
       <div className="flex items-center">
         <Link className="text-2xl font-bold" href="/">
           np.io
@@ -42,7 +34,7 @@ const Navbar: React.FC = () => {
             <FaBars size={24} />
           </button>
         </div>
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex space-x-20">
           {links.map((link) => (
             <Link
               className="text-xl font-medium hover:opacity-70"
