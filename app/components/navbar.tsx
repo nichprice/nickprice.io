@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
             <FaBars size={24} />
           </button>
         </div>
-        <div className="hidden md:flex space-x-20">
+        <div className="hidden md:flex space-x-16">
           {links.map((link) => (
             <Link
               className="text-xl font-medium hover:opacity-70"

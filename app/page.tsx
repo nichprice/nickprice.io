@@ -19,10 +19,10 @@ export default function Home() {
         </h4>
       </div>
       <div className="">
-        <Image
-          src={dinner_pic}
+        <img
           alt="headshot"
-          className="mx-auto rounded-full w-64 h-64"
+          src={dinner_pic.src}
+          className="mx-auto rounded-full h-40 w-40 md:h-60 md:w-60 lg:w-80 lg:h-80"
         />
       </div>
       <div className="max-w-lg mx-auto">
