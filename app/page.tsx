@@ -9,7 +9,7 @@ import dinner_pic from "public/photos/dinner-pic.jpeg";
 
 export default function Home() {
   return (
-    <section className="mx-auto px-40 py-10 ">
+    <section className="mx-auto px-10 py-10 ">
       <div>
         <h1 className="text-5xl font-medium flex justify-center text-sky-600 ">
           Nick Price
