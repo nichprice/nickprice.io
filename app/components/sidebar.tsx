@@ -9,7 +9,7 @@ const navItems = {
   "/portfolio": { name: "portfolio" },
 };
 
-export default function Navbar() {
+export default function Sidebar() {
   let pathname = usePathname();
 
   return (

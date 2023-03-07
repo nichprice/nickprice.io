@@ -70,11 +70,11 @@ export default function About() {
           fresh beans and watching water slowly boil through the spout of a Moka
           pot.
         </p>
-        <p className="text-3xl font-semibold pt-8 pb-6">Let's chat about:</p>
       </div>
 
-      <div className="max-w-3xl mx-auto">
-        <div className="grid grid-cols-3 gap-7">
+      <div className="">
+        <p className="text-3xl font-semibold pt-8 pb-6">Let's chat about:</p>
+        <div className=" md:grid md:grid-cols-2 md:gap-7 lg:grid-cols-3">
           {abouts.map((about: { id: React.Key | null | undefined }) => (
             <Abtmeblocks key={about.id} about={about} />
           ))}

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Abtmeblocks({ about }: { about: any }) {
   return (
-    <div className="py-7 rounded-2xl shadow-lg ">
-      <div>
+    <div className="flex flex-col mx-auto w-80 my-10 py-7 rounded-2xl shadow-lg md:min-w-2">
+      <div className="">
         <img
           alt={about.caption}
           src={about.pic}
