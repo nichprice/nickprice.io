@@ -18,12 +18,11 @@ export default function ProjectCard({ project }: { project: any }) {
         </div>
       </div>
 
-      <div className="flex mx-auto">
-        <YouTube
-          videoId={project.youtube}
-          className="flex mx-auto object-scale-down w-80"
-        />
-      </div>
+      <YouTube
+        videoId={project.youtube}
+        className="flex mx-auto object-contain "
+      />
+
       <div className="">
         <h4 className="text-2xl font-semibold flex justify-center pt-8 pb-5">
           {project.tech}

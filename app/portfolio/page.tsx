@@ -32,7 +32,7 @@ export default function PortfolioPage() {
         <h1 className="text-5xl font-medium flex justify-center text-sky-600 pb-10">
           My Work
         </h1>
-        <p className="font-normal leading-relaxed text-center pb-4">
+        <p className="font-normal leading-relaxed pb-4">
           I wrote my first line of code in late 2021 and although I'm still
           writing HTML and cooking some of my favorite recipes that were the
           center-piece of my
@@ -53,13 +53,13 @@ export default function PortfolioPage() {
 
       <div className="px-10">
         <h3 className="text-center py-2">Some tech I've worked with:</h3>
-        <div className="mx-auto grid grid-cols-3 max-w-md">
+        <div className="max-w-lg grid grid-cols-2 mx-auto justify-evenly md:grid-cols-3 lg:grid-cols-3">
           {techs.map((t) => (
             <li>{t.tech}</li>
           ))}
         </div>
       </div>
-      <div className="mx-auto">
+      <div className="flex flex-col mx-auto max-w-lg md:flex-col-2">
         {projects.map((project: { id: React.Key | null | undefined }) => (
           <ProjectCard key={project.id} project={project} />
         ))}
