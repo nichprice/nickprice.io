@@ -1,5 +1,6 @@
 import YouTube from "react-youtube";
-import { AiFillGithub } from "react-icons/ai";
+import Link from "next/link";
+import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
 
 export default function ProjectCard({ project }: { project: any }) {
   return (
@@ -20,8 +21,21 @@ export default function ProjectCard({ project }: { project: any }) {
 
       <YouTube
         videoId={project.youtube}
-        className="flex mx-auto object-contain "
+        className="hidden mx-auto object-scale-down md:flex md:max-w-md lg:max-w-lg"
       />
+
+      <Link
+        href={`https://youtu.be/${project.youtube}`}
+        className="md:hidden text-[#FF0000] hover:opacity-80"
+        target={
+          `https://youtu.be/${project.youtube}`.startsWith("http")
+            ? "_blank"
+            : ""
+        }
+        rel="noopener noreferrer"
+      >
+        <AiFillYoutube className="flex mx-auto h-28 w-28" />
+      </Link>
 
       <div className="">
         <h4 className="text-2xl font-semibold flex justify-center pt-8 pb-5">
