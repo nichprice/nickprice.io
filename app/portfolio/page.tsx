@@ -59,7 +59,7 @@ export default function PortfolioPage() {
           ))}
         </div>
       </div>
-      <div className="max-w-3xl mx-auto">
+      <div className="mx-auto">
         {projects.map((project: { id: React.Key | null | undefined }) => (
           <ProjectCard key={project.id} project={project} />
         ))}
