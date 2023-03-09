@@ -31,19 +31,20 @@ export default function About() {
             Thanks for stopping by!
           </h3>
 
-          <ul>
+          <ul className="list-disc list-outside px-4">
             <li>I write code! Mostly JS and Python.</li>
             <li>I’m passionate about science and problem solving.</li>
             <li>I love lifting and endurance training.</li>
+            <li>
+              I believe in recently roasted and freshly ground coffee beans.
+            </li>
             <li>Toto Wolff is my hero.</li>
             <li>Thomas Keller changed the way I cook.</li>
-            <li>I’m probably the biggest Jets fan you’ll ever meet.</li>
-            <li>I’m a diehard Mokapot enthusiest.</li>
           </ul>
+          <p className="text-2xl font-medium pt-8 pb-6">Let's chat about...</p>
         </div>
-        <div className="mx-auto">
-          <p className="text-3xl font-semibold pt-8 pb-6">Let's chat about:</p>
-          <div className=" md:grid md:grid-cols-1 md:gap-3 lg:grid-cols-2">
+        <div className="max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 gap-y-10 lg:grid-cols-2">
             {abouts.map((about: { id: React.Key | null | undefined }) => (
               <Abtmeblocks key={about.id} about={about} />
             ))}

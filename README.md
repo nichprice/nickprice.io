@@ -31,6 +31,7 @@ pscale connect project-name branch --port 3309
 # For this project on the dev branch, run:
 
 pscale connect portfolio initial-setup --port 3309
+pscale connect portfolio main --port 3309
 
 ## Learn More
 
