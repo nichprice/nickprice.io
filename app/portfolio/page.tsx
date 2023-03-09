@@ -55,7 +55,7 @@ export default function PortfolioPage() {
         <h3 className="text-center py-2">Some tech I've worked with:</h3>
         <div className="max-w-lg grid grid-cols-2 mx-auto justify-evenly md:grid-cols-3 lg:grid-cols-3 py-2">
           {techs.map((t) => (
-            <li>{t.tech}</li>
+            <li className="list-inside">{t.tech}</li>
           ))}
         </div>
       </div>

@@ -23,7 +23,7 @@ export default function About() {
   return (
     <div className="py-10">
       <h1 className="text-5xl font-medium flex justify-center text-sky-600 pb-10">
-        About me
+        About Me
       </h1>
       <div className="mx-auto">
         <div className="md:max-w-lg mx-auto">
