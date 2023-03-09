@@ -19,7 +19,7 @@ export default function ProjectCard({ project }: { project: any }) {
             <a className="text-3xl font-bold">{project.title}</a>
           </div>
         </div>
-        <div className="mx-auto flex flex-col">
+        <div className="mx-auto max-w-sm flex flex-col">
           <YouTube
             videoId={project.youtube}
             className="max-w-sm mx-auto object-scale-down "
