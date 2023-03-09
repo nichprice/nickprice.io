@@ -20,10 +20,21 @@ export default function ProjectCard({ project }: { project: any }) {
           </div>
         </div>
         <div className="mx-auto max-w-sm flex flex-col">
-          <YouTube
+          {/* <YouTube
             videoId={project.youtube}
-            className="max-w-sm mx-auto object-scale-down "
-          />
+            className="max-w-sm mx-auto "
+            width="384"
+          /> */}
+
+          <iframe
+            id="ytplayer"
+            type="text/html"
+            width="300"
+            height="168"
+            src={`https://youtube.com/embed/${project.youtube}`}
+            frameborder="0"
+            className="flex mx-auto"
+          ></iframe>
 
           {/* <Link
             href={`https://youtu.be/${project.youtube}`}
@@ -37,11 +48,10 @@ export default function ProjectCard({ project }: { project: any }) {
           >
             <AiFillYoutube className="flex mx-auto h-28 w-28" />
           </Link> */}
-
-          <div className="max-w-md">
-            <h4 className="text-2xl font-semibold pt-8 pb-5">{project.tech}</h4>
-            <p className="text-lg mx-auto">{project.about}</p>
-          </div>
+        </div>
+        <div className="max-w-md">
+          <h4 className="text-2xl font-semibold pt-8 pb-5">{project.tech}</h4>
+          <p className="text-lg mx-auto">{project.about}</p>
         </div>
       </div>
     </div>
