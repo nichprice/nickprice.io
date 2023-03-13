@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
+// import resume from "../../public/files/resume.pdf";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,6 +16,11 @@ const Navbar: React.FC = () => {
     { title: "About", url: "/about" },
     { title: "Portfolio", url: "/portfolio" },
     { title: "Blog", url: "https://medium.com/@price.nich" },
+    // {
+    //   title: "Resume",
+    //   url: { resume },
+    //   download: true,
+    // },
   ];
 
   return (
@@ -42,6 +48,7 @@ const Navbar: React.FC = () => {
               key={link.title}
               target={link.url.startsWith("http") ? "_blank" : ""}
               rel="noopener noreferrer"
+              // download={link.download}
             >
               {link.title}
             </Link>
@@ -71,6 +78,7 @@ const Navbar: React.FC = () => {
               target={link.url.startsWith("http") ? "_blank" : ""}
               rel="noopener noreferrer"
               onClick={toggleSidebar}
+              // download={link.download}
             >
               {link.title}
             </Link>

@@ -46,6 +46,14 @@ export default function Sidebar() {
           >
             blog
           </Link>
+          <Link
+            href="public/files/Nicholas Price Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white px-3 text-lg hover:opacity-70"
+          >
+            resume
+          </Link>
         </div>
       </div>
     </nav>
