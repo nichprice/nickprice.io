@@ -1,11 +1,5 @@
 "use client";
 
-// import bread from "public/photos/bread.jpeg";
-// import ski_lift from "public/photos/ski-lift.jpeg";
-// import pasta from "public/photos/pasta.jpg";
-// import trivia from "public/photos/trivia_team.jpeg";
-// import f1 from "public/photos/f1.jpeg";
-// import Image from "next/image";
 import Abtmeblocks from "../components/abtmeblocks";
 import React, { useEffect, useState } from "react";
 
