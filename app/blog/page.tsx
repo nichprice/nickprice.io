@@ -1,20 +1,24 @@
-export default function Blog() {
+import PostCard from "../components/postcard";
+import { allPosts } from "contentlayer/generated";
+import { compareDesc } from "date-fns";
+
+export async function getStaticProps() {
+  const posts = allPosts.sort((a, b) => {
+    return compareDesc(new Date(a.date), new Date(b.date));
+  });
+  return { props: { posts } };
+}
+
+export default function Home({ posts }) {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Coming soon..</h1>
-      <p>
-        In the meantime, check out some of my old blogs
-        <span>
-          <a
-            href="https://medium.com/@price.nich"
-            className="text-orange-400 hover:opacity-60"
-          >
-            {" "}
-            here
-          </a>
-        </span>
-        .
-      </p>
+    <div className="mx-auto max-w-2xl py-16 text-center">
+      <title>Contentlayer Blog Example</title>
+
+      <h1 className="mb-8 text-3xl font-bold">Contentlayer Blog Example</h1>
+
+      {posts.map((post, idx) => (
+        <PostCard key={idx} {...post} />
+      ))}
     </div>
   );
 }
