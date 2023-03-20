@@ -2,6 +2,7 @@ import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allPosts } from "contentlayer/generated";
 import PostCard from "../components/postcard";
+// import PostCard from "../components/postcard";
 
 export default function BlogPage() {
   return (

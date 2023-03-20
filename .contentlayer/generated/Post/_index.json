@@ -15,7 +15,8 @@
       "flattenedPath": "post-01"
     },
     "type": "Post",
-    "url": "/posts/post-01"
+    "url": "/posts/post-01",
+    "slug": "post-01"
   },
   {
     "title": "Lorem Ipsum",
@@ -33,7 +34,8 @@
       "flattenedPath": "post-02"
     },
     "type": "Post",
-    "url": "/posts/post-02"
+    "url": "/posts/post-02",
+    "slug": "post-02"
   },
   {
     "title": "Lorem Ipsum",
@@ -51,6 +53,7 @@
       "flattenedPath": "post-03"
     },
     "type": "Post",
-    "url": "/posts/post-03"
+    "url": "/posts/post-03",
+    "slug": "post-03"
   }
 ]

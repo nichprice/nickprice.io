@@ -20,6 +20,7 @@ export type Post = {
   /** Markdown file body */
   body: Markdown
   url: string
+  slug: string
 }  
 
 /** Nested types */

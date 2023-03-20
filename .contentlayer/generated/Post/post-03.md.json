@@ -14,5 +14,6 @@
     "flattenedPath": "post-03"
   },
   "type": "Post",
-  "url": "/posts/post-03"
+  "url": "/posts/post-03",
+  "slug": "post-03"
 }
