@@ -3,7 +3,7 @@ import { compareDesc, format, parseISO } from "date-fns";
 import { allPosts } from "contentlayer/generated";
 import PostCard from "../components/postcard";
 
-export default function Blog() {
+export default function BlogPage() {
   return (
     <div className="mx-auto max-w-2xl py-16 text-center">
       <title>Contentlayer Blog Example</title>
