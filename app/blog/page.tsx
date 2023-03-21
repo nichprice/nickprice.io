@@ -2,7 +2,6 @@ import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allBlogs } from "contentlayer/generated";
 import PostCard from "@/components/postcard";
-// import PostCard from "../components/postcard";
 
 export default function BlogPage() {
   return (
@@ -19,13 +18,6 @@ export default function BlogPage() {
           return 1;
         })
         .map((post) => (
-          // <Link
-          //   key={post.slug}
-          //   className="flex flex-col space-y-1 mb-4"
-          //   href={`blog/${post.slug}`}
-          // >
-          //   <div className="w-full flex flex-col">{post.title}</div>
-          // </Link>
           <PostCard key={post.slug} post={post} />
         ))}
     </div>
