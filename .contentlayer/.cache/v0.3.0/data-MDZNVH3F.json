@@ -16,13 +16,12 @@
           "contentType": "markdown",
           "flattenedPath": "post-01"
         },
-        "type": "Post",
-        "url": "/posts/post-01",
+        "type": "Blog",
         "slug": "post-01"
       },
       "documentHash": "1679340098541",
       "hasWarnings": false,
-      "documentTypeName": "Post"
+      "documentTypeName": "Blog"
     },
     "post-02.md": {
       "document": {
@@ -40,13 +39,12 @@
           "contentType": "markdown",
           "flattenedPath": "post-02"
         },
-        "type": "Post",
-        "url": "/posts/post-02",
+        "type": "Blog",
         "slug": "post-02"
       },
       "documentHash": "1679340098541",
       "hasWarnings": false,
-      "documentTypeName": "Post"
+      "documentTypeName": "Blog"
     },
     "post-03.md": {
       "document": {
@@ -64,13 +62,12 @@
           "contentType": "markdown",
           "flattenedPath": "post-03"
         },
-        "type": "Post",
-        "url": "/posts/post-03",
+        "type": "Blog",
         "slug": "post-03"
       },
       "documentHash": "1679174095685",
       "hasWarnings": false,
-      "documentTypeName": "Post"
+      "documentTypeName": "Blog"
     }
   }
 }

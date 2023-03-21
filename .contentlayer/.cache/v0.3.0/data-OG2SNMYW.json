@@ -17,7 +17,7 @@
           "flattenedPath": "post-01"
         },
         "type": "Post",
-        "url": "/posts/post-01",
+        "url": "/blog/posts/post-01",
         "slug": "post-01"
       },
       "documentHash": "1679340098541",
@@ -41,7 +41,7 @@
           "flattenedPath": "post-02"
         },
         "type": "Post",
-        "url": "/posts/post-02",
+        "url": "/blog/posts/post-02",
         "slug": "post-02"
       },
       "documentHash": "1679340098541",
@@ -65,7 +65,7 @@
           "flattenedPath": "post-03"
         },
         "type": "Post",
-        "url": "/posts/post-03",
+        "url": "/blog/posts/post-03",
         "slug": "post-03"
       },
       "documentHash": "1679174095685",

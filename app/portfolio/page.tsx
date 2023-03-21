@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import ProjectCard from "../components/projectcard";
+import ProjectCard from "../../components/projectcard";
 
 export default function PortfolioPage() {
   const [projects, setData] = useState<any[]>([]);

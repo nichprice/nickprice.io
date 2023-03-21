@@ -32,7 +32,7 @@
     ".next/types/**/*.ts",
     "pages/api/projects.ts",
     ".contentlayer/generated",
-    "app/blog/posts/[slug].js"
+    "app/blog/[slug]/page.tsx"
   ],
   "exclude": ["node_modules"]
 }

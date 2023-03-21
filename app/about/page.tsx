@@ -1,6 +1,6 @@
 "use client";
 
-import Abtmeblocks from "../components/abtmeblocks";
+import Abtmeblocks from "../../components/abtmeblocks";
 import React, { useEffect, useState } from "react";
 
 export default function About() {
