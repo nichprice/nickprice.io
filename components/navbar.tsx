@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
   const links = [
     { title: "About", url: "/about" },
     { title: "Portfolio", url: "/portfolio" },
-    { title: "Blog", url: "/blog" },
+    { title: "Blog", url: "https://medium.com/@price.nich" },
     // {
     //   title: "Resume",
     //   url: { resume },
