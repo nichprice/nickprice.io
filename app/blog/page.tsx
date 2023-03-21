@@ -19,13 +19,14 @@ export default function BlogPage() {
           return 1;
         })
         .map((post) => (
-          <Link
-            key={post.slug}
-            className="flex flex-col space-y-1 mb-4"
-            href={`blog/${post.slug}`}
-          >
-            <div className="w-full flex flex-col">{post.title}</div>
-          </Link>
+          // <Link
+          //   key={post.slug}
+          //   className="flex flex-col space-y-1 mb-4"
+          //   href={`blog/${post.slug}`}
+          // >
+          //   <div className="w-full flex flex-col">{post.title}</div>
+          // </Link>
+          <PostCard key={post.slug} post={post} />
         ))}
     </div>
   );

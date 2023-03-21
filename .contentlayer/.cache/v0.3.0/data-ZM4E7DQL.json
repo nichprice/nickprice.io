@@ -1,0 +1,73 @@
+{
+  "cacheItemsMap": {
+    "post-01.md": {
+      "document": {
+        "title": "JavaScript Callback Functions",
+        "date": "2021-12-24T00:00:00.000Z",
+        "body": {
+          "raw": "\nCallback functions may not be fun at first, but don’t worry, they won’t kill you.\n\nOne of the first topics covered by devs who are learning to write JavaScript is functions. Functions are fairly straightforward for individuals with even the littlest amount of coding experience, but callback functions provide a layer of increased difficulty that many new devs struggle to grasp.\n\nFor example, the following is an example of a basic JavaScript function:\n\nfunction multiply (a, b) {\nreturn a \\* b;\n}\nIn layman’s terms, this code has defined a function “multiply”. The function “multiply” has two parameters passed through it. Those parameters are a and b.\n\nIf one was to call or execute the function using the argument of 4 for a and 5 for b, it would be written as such:\n\nmultiply (4, 5)\nThis function when ran in a console would return the value 20, representing the product of 4 \\* 5.\n\nFairly simple, no?\n\nCallback functions aren’t quite as easy. Here’s an example:\n\nfunction multiplyAgain (c, d, callback){\nreturn callback(c, d);\n}\nRemember the parameters here are c, d, and callback. In this case the parameter callback is referring to a function. We can assign our arguments as 10 for c, 8 for d, and our multiply function as the “callback”.\n\nWhat this function does is run the callback function passing the c and d arguments into that function.\n\nPut simply\n\nmultiplyAgain(8, 10, multiply)\nWill return a value of 80.\n",
+          "html": "<p>Callback functions may not be fun at first, but don’t worry, they won’t kill you.</p>\n<p>One of the first topics covered by devs who are learning to write JavaScript is functions. Functions are fairly straightforward for individuals with even the littlest amount of coding experience, but callback functions provide a layer of increased difficulty that many new devs struggle to grasp.</p>\n<p>For example, the following is an example of a basic JavaScript function:</p>\n<p>function multiply (a, b) {\nreturn a * b;\n}\nIn layman’s terms, this code has defined a function “multiply”. The function “multiply” has two parameters passed through it. Those parameters are a and b.</p>\n<p>If one was to call or execute the function using the argument of 4 for a and 5 for b, it would be written as such:</p>\n<p>multiply (4, 5)\nThis function when ran in a console would return the value 20, representing the product of 4 * 5.</p>\n<p>Fairly simple, no?</p>\n<p>Callback functions aren’t quite as easy. Here’s an example:</p>\n<p>function multiplyAgain (c, d, callback){\nreturn callback(c, d);\n}\nRemember the parameters here are c, d, and callback. In this case the parameter callback is referring to a function. We can assign our arguments as 10 for c, 8 for d, and our multiply function as the “callback”.</p>\n<p>What this function does is run the callback function passing the c and d arguments into that function.</p>\n<p>Put simply</p>\n<p>multiplyAgain(8, 10, multiply)\nWill return a value of 80.</p>"
+        },
+        "_id": "post-01.md",
+        "_raw": {
+          "sourceFilePath": "post-01.md",
+          "sourceFileName": "post-01.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "post-01"
+        },
+        "type": "Blog",
+        "slug": "post-01"
+      },
+      "documentHash": "1679424915799",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "post-02.md": {
+      "document": {
+        "title": "Lorem Ipsum",
+        "date": "2021-12-24T00:00:00.000Z",
+        "body": {
+          "raw": "\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.\n\nMollit nisi cillum exercitation minim officia velit laborum non Lorem\nadipisicing dolore. Labore commodo consectetur commodo velit adipisicing irure\ndolore dolor reprehenderit aliquip. Reprehenderit cillum mollit eiusmod\nexcepteur elit ipsum aute pariatur in. Cupidatat ex culpa velit culpa ad non\nlabore exercitation irure laborum.\n",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.</p>\n<p>Mollit nisi cillum exercitation minim officia velit laborum non Lorem\nadipisicing dolore. Labore commodo consectetur commodo velit adipisicing irure\ndolore dolor reprehenderit aliquip. Reprehenderit cillum mollit eiusmod\nexcepteur elit ipsum aute pariatur in. Cupidatat ex culpa velit culpa ad non\nlabore exercitation irure laborum.</p>"
+        },
+        "_id": "post-02.md",
+        "_raw": {
+          "sourceFilePath": "post-02.md",
+          "sourceFileName": "post-02.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "post-02"
+        },
+        "type": "Blog",
+        "slug": "post-02"
+      },
+      "documentHash": "1679340098541",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "post-03.md": {
+      "document": {
+        "title": "Lorem Ipsum",
+        "date": "2021-12-24T00:00:00.000Z",
+        "body": {
+          "raw": "\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.\n\nMollit nisi cillum exercitation minim officia velit laborum non Lorem\nadipisicing dolore. Labore commodo consectetur commodo velit adipisicing irure\ndolore dolor reprehenderit aliquip. Reprehenderit cillum mollit eiusmod\nexcepteur elit ipsum aute pariatur in. Cupidatat ex culpa velit culpa ad non\nlabore exercitation irure laborum.\n",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.</p>\n<p>Mollit nisi cillum exercitation minim officia velit laborum non Lorem\nadipisicing dolore. Labore commodo consectetur commodo velit adipisicing irure\ndolore dolor reprehenderit aliquip. Reprehenderit cillum mollit eiusmod\nexcepteur elit ipsum aute pariatur in. Cupidatat ex culpa velit culpa ad non\nlabore exercitation irure laborum.</p>"
+        },
+        "_id": "post-03.md",
+        "_raw": {
+          "sourceFilePath": "post-03.md",
+          "sourceFileName": "post-03.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "post-03"
+        },
+        "type": "Blog",
+        "slug": "post-03"
+      },
+      "documentHash": "1679174095685",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    }
+  }
+}

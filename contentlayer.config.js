@@ -2,10 +2,6 @@ import { defineDocumentType, makeSource } from "contentlayer/source-files";
 
 /** @type {import('contentlayer/source-files').ComputedFields} */
 const computedFields = {
-  // url: {
-  //   type: "string",
-  //   resolve: (doc) => `blog/${doc._raw.flattenedPath}`,
-  // },
   slug: {
     type: "string",
     resolve: (doc) => doc._raw.flattenedPath,
@@ -27,16 +23,6 @@ export const Blog = defineDocumentType(() => ({
       required: true,
     },
   },
-  // computedFields: {
-  //   url: {
-  //     type: "string",
-  //     resolve: (post) => `/posts/${post._raw.flattenedPath}`,
-  //   },
-  //   slug: {
-  //     type: "string",
-  //     resolve: (post) => post._raw.flattenedPath,
-  //   }
-  // },
   computedFields,
 }));
 

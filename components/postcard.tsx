@@ -8,7 +8,7 @@ export default function PostCard({ post }: { post: any }) {
         {format(parseISO(post.date), "LLLL d, yyyy")}
       </time>
       <h2 className="text-lg">
-        <Link href={post.url}>{post.title}</Link>
+        <Link href={`blog/${post.slug}`}>{post.title}</Link>
       </h2>
     </div>
   );
