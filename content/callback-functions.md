@@ -10,7 +10,7 @@ One of the first topics covered by devs who are learning to write JavaScript is 
 For example, the following is an example of a basic JavaScript function:
 
         function multiply (a, b) {
-            return a * b;
+                return a * b;
         }
 
 In layman’s terms, this code has defined a function “multiply”. The function “multiply” has two parameters passed through it. Those parameters are a and b.
