@@ -17,7 +17,7 @@ export default function Post({ params }: { params: any }) {
 
   return (
     <section className="mx-auto px-10 py-10">
-      <div className="max-w-lg mx-auto">
+      <div>
         <div className="pb-7">
           <h1 className="text-5xl font-medium pb-3">{post.title}</h1>
           <time dateTime={post.date} className="">
