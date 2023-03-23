@@ -27,7 +27,7 @@ export default function PortfolioPage() {
   }, []);
 
   return (
-    <div className="max-w-lg mx-auto py-10">
+    <div className="max-w-lg mx-auto py-16">
       <div className="mx-auto">
         <h1 className="text-5xl font-medium flex justify-center text-sky-600 pb-10">
           My Work

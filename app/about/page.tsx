@@ -15,7 +15,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="py-10">
+    <div className="py-16">
       <h1 className="text-5xl font-medium flex justify-center text-sky-600 pb-10">
         About Me
       </h1>

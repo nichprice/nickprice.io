@@ -16,7 +16,7 @@ export default function Post({ params }: { params: any }) {
   }
 
   return (
-    <div className="py-10">
+    <div className="py-16">
       <div className="md:max-w-lg mx-auto">
         <h2 className="text-5xl font-medium pb-3">{post.title}</h2>
         <time dateTime={post.date} className="">
