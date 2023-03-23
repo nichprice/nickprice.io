@@ -2,6 +2,7 @@
 
 import callbackFunctionsMd from './callback-functions.md.json' assert { type: 'json' }
 import inverseDataFlowMd from './inverse-data-flow.md.json' assert { type: 'json' }
-import post_03Md from './post-03.md.json' assert { type: 'json' }
+import sqlMd from './sql.md.json' assert { type: 'json' }
+import rubyRailsMd from './ruby-rails.md.json' assert { type: 'json' }
 
-export const allBlogs = [callbackFunctionsMd, inverseDataFlowMd, post_03Md]
+export const allBlogs = [callbackFunctionsMd, inverseDataFlowMd, sqlMd, rubyRailsMd]

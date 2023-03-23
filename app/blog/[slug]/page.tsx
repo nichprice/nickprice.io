@@ -18,10 +18,12 @@ export default function Post({ params }: { params: any }) {
   return (
     <div className="py-16">
       <div className="md:max-w-lg mx-auto">
-        <h2 className="text-5xl font-medium pb-3">{post.title}</h2>
-        <time dateTime={post.date} className="">
-          {format(parseISO(post.date), "LLLL d, yyyy")}
-        </time>
+        <div className="pb-6">
+          <h2 className="text-3xl font-medium pb-3">{post.title}</h2>
+          <time dateTime={post.date} className="flex justify-end">
+            {format(parseISO(post.date), "LLLL d, yyyy")}
+          </time>
+        </div>
         <div
           dangerouslySetInnerHTML={{ __html: post.body.html }}
           className="prose"
