@@ -1,25 +1,27 @@
 ---
 title: Rails vs. Ruby… What’s the Difference?
-date: 2022-08-3
+date: 2022-08-03
 ---
 
-Before there were cars, people rode horses. They smelled bad, they were slow, they got tired and emotional, and they definitely didn’t have air conditioning. Henry Ford, Karl Benz, and Etienne Citroen were just a few of the folks unhappy with this status quo. They knew there had to be a better option for personal transportation. They wanted to go further, more quickly, and more comfortably than what the horse could could manage.
+Before there were cars, people rode horses.
+
+Horses smell bad, they're slow, they get tired and emotional, and they definitely don't have air conditioning. Henry Ford, Karl Benz, and Etienne Citroen were just a few of the folks who unhappy to be dependant on this method of transportation. They knew there had to be a better option for personal transportation. They wanted to go further, more quickly, and more comfortably than what a horse could manage.
 
 Enter the automobile!
 
-The comparison between cars and horses is much like the comparison between rails and ruby. If cars have many horsepower, then Rails has many rubypower.
+The comparison between cars and horses is much like the comparison between Rails and Ruby. If cars have many horsepower, then Rails has many Rubypower.
 
 ## Syntax
 
-First and foremost, it’s important to understand that Rails has been built on top of Ruby, it’s what we refer to as a “framework”. Therefore, Rails is written using the same syntax as Ruby. In JavaScript we write functions, whereas in Ruby we write methods. JS and Ruby are two different languages and therefore use two different syntax. Because Rails is built on top of Ruby, they same syntax as ruby, therefore they both use methods.
+First and foremost, it’s important to understand that Rails has been built on top of Ruby, it’s what we refer to as a “framework”. Therefore, Rails is written using the same syntax as Ruby. In JavaScript we write functions, whereas in Ruby we write methods. JS and Ruby are two different languages and therefore use two different syntaxes. Because Rails is built on top of Ruby, it uses same syntax as ruby and also uses methods.
 
-Rails is what’s called an open source framework. It uses scripts that have been built by many different developers. Essentially this means that when you write a little bit of Rails code, under the hood you’re writing a lot a bit of Ruby code.
+Rails is what’s called an open source framework. It uses scripts that have been built by many different developers. Essentially this means that when you write a little bit of Rails code, under the hood you’re writing a lot of Ruby code.
 
 ## A Caveat
 
 We’ve established that Rails is more simple and more powerful than Ruby, so this means you’d always favor writing Rails over Ruby, unless you were super attached to it or just really enjoy writing more code than necessary, right?
 
-Well, not exactly. In the case of desktop applications where server side scripting is involved, Rails capability highly limited and you find yourself in a situation where you’re better off using Ruby. Web apps are where Rails really shines.
+Well, not exactly. In the case of desktop applications where server side scripting is involved, Rails capability is highly limited and you may find yourself in a situation where you be better off using Ruby. Web apps are where Rails really shines.
 
 ##Convention over Configuration
 
@@ -35,4 +37,4 @@ MVC is a whole topic that warrants its own separate blog post. CodeAcademy does 
 
 > MVC is short for Model, View, and Controller. MVC is a popular way of organizing your code. The big idea behind MVC is that each section of your code has a purpose, and those purposes are different. Some of your code holds the data of your app, some of your code makes your app look nice, and some of your code controls how your app functions.” — [CodeAcademy](https://www.codecademy.com/article/mvc)
 
-MVC revolutionized the simplicity of writing back end code and has since been adopted by other
+MVC revolutionized the simplicity of writing back end code and has since been adopted by other languages and frameworks.
