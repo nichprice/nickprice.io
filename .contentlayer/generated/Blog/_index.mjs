@@ -6,5 +6,6 @@ import reactRouter_6Md from './react-router-6.md.json' assert { type: 'json' }
 import rubyRailsMd from './ruby-rails.md.json' assert { type: 'json' }
 import sqlMd from './sql.md.json' assert { type: 'json' }
 import nextjsMd from './nextjs.md.json' assert { type: 'json' }
+import nextjs2Md from './nextjs2.md.json' assert { type: 'json' }
 
-export const allBlogs = [callbackFunctionsMd, inverseDataFlowMd, reactRouter_6Md, rubyRailsMd, sqlMd, nextjsMd]
+export const allBlogs = [callbackFunctionsMd, inverseDataFlowMd, reactRouter_6Md, rubyRailsMd, sqlMd, nextjsMd, nextjs2Md]
