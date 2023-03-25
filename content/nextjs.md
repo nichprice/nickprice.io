@@ -7,7 +7,7 @@ Whether you’re getting your feet wet as a developer or you’ve been around th
 
 Plainly, Next.js is a React framework. Let’s break this down.
 
-### React, a JavaScript Library
+## React, a JavaScript Library
 
 Firstly, we know that a JavaScript library is pre-written code that allows for easier development of JavaScript. You can think of a library as a repository of functions that are hidden beneath the surface.
 
@@ -17,7 +17,7 @@ Wouldn’t it be nice if you simply had one built in function that did this for 
 
 TLDR; libraries are powerful tools that help you more quickly and efficiently write build apps.
 
-### Next.js, a React Framework
+## Next.js, a React Framework
 
 Think broadly, what is a frame work? We can think of frameworks in regard to the building of a house. The frame and foundation always go up early in the building process and are then built around and on top of.
 
@@ -27,7 +27,7 @@ An example would be data analytics. Would you rather build your own data analyti
 
 There are arguments to be made for both, but for the most part, if you’re crunched for time or uninterested in learning about building a data analytics platform, a using a web framework that can easily integrate third party tech is very appealing.
 
-### Full Circle
+## Full Circle
 
 _Next.js is a React framework._
 

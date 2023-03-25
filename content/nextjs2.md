@@ -7,7 +7,7 @@ In the last post we dove into the semantics of what Next.js is. We started by pr
 
 This context can be useful for communicating what Next.js is, but it doesn’t provide us much beyond a surface level understanding of what a framework is. Essentially, we could delete “Next.js” from the last post and replace it with any other React framework. This information is helpful, but let’s answer a few more questions.
 
-### Why do we have React Frameworks?
+## Why do we have React Frameworks?
 
 Let’s rewind a few years to 2013. Daniel Day Lewis just won an Oscar for his prolific role as Abraham Lincoln, Thrift Shop by Macklemore was the #1 song in America, and _drumroll please..._ **Facebook released the first version of React**. Not only did React immediately revolutionize the way websites are built, Facebook release the software as open source. Open source software (OSS) is software that allows the public to use, study, change, and distribute the the source code to anyone for any purpose.
 
@@ -15,23 +15,23 @@ This is very important! React quickly became a hit for all the right reasons. Th
 
 If the devs using React wanted to add functionality or modify the source code to prevent bugs, they had the ability to do so because the software was open source! They didn’t have to sit around and wait for the React team at Facebook to put the time into making and releasing changes. They were able to take matters into their own hands. They began to tailor the software to better meet their needs by building custom React frameworks.
 
-### How does Next.js expand upon React?
+## How does Next.js expand upon React?
 
 There are many elements that set Next.js apart from React. Here we’ll expand on a few key features.
 
-#### Routing
+### Routing
 
 One of the first differences you’ll encounter when building with Next.js is the routing system. There are pluses and minuses to all routing systems. What’s nice about Next.js’s routing system is that it’s very simple and intuitive. Start with a folder called “app”. Inside “app”, create a folder with the title of a route you’d like to build. For example, you can create a folder called “blog” and create a file in that folder called “page”. In your page file, write the code that you’d like to render on your “/blog” webpage. You now have a frontend endpoint “/blog” with content. It’s that simple.
 
-#### SEO
+### SEO
 
 SEO can be very important for the success of a website these days. The content of your website doesn’t matter all that much if no one can find it. Next.js has a multitude of built in features that can help developers optimize their SEO and get their website found.
 
-#### Speed
+### Speed
 
 Next.js uses a few tricks that developers can use to make their webpages run faster. Server side rendering using getServerSideProps(), static site generation using getStaticProps(), and image component optimization using next/image can increase the speed at which your webpage renders on the client and provide an experience that users really enjoy.
 
-#### TypeScript
+### TypeScript
 
 Type-safety ensures that datatypes remain consistent. For example, you can define a variable as a boolean. This ensures that the variable will remain a boolean. You’ll never wind up with a scenario where a string "true" is output, the datatype will remain boolean. While React doesn’t offer TypeScript, Next.js supports TS out of the box. When you run create-next-app to create your project, you are prompted to select either JavaScript or TypeScript.
 
