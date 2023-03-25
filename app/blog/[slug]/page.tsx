@@ -17,9 +17,9 @@ export default function Post({ params }: { params: any }) {
 
   return (
     <div className="py-16">
-      <div className="md:max-w-lg mx-auto">
+      <div className="max-w-lg mx-auto">
         <div className="pb-6">
-          <h2 className="text-3xl font-medium pb-3">{post.title}</h2>
+          <h2 className="text-4xl font-bold pb-3">{post.title}</h2>
           <time dateTime={post.date}>
             {format(parseISO(post.date), "LLLL d, yyyy")}
           </time>
