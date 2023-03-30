@@ -7,5 +7,7 @@ import rubyRailsMd from './ruby-rails.md.json' assert { type: 'json' }
 import sqlMd from './sql.md.json' assert { type: 'json' }
 import nextjsMd from './nextjs.md.json' assert { type: 'json' }
 import nextjs2Md from './nextjs2.md.json' assert { type: 'json' }
+import post_01Md from './post-01.md.json' assert { type: 'json' }
+import post_02Md from './post-02.md.json' assert { type: 'json' }
 
-export const allBlogs = [callbackFunctionsMd, inverseDataFlowMd, reactRouter_6Md, rubyRailsMd, sqlMd, nextjsMd, nextjs2Md]
+export const allBlogs = [callbackFunctionsMd, inverseDataFlowMd, reactRouter_6Md, rubyRailsMd, sqlMd, nextjsMd, nextjs2Md, post_01Md, post_02Md]

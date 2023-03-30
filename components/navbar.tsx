@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className="bg-sky-500 text-white flex items-center justify-between py-3 px-16">
+    <nav className="bg-sky-500 text-white dark:bg-orange-400 flex items-center justify-between py-3 px-16">
       <div className="flex items-center">
         <Link className="text-2xl font-bold" href="/">
           np.io
