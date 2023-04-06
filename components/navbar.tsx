@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       <div
-        className={`fixed top-0 right-0 bottom-0 z-10 bg-orange-400 text-white w-64 px-6 pt-20 transition-all duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 bottom-0 z-10 bg-orange-400 text-white dark:bg-sky-500 w-64 px-6 pt-20 transition-all duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
