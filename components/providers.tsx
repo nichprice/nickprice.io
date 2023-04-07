@@ -1,9 +1,8 @@
 "use client";
 
 import { ReactNode } from "react";
-
-import { ThemeProvider } from "@wits/next-themes";
-import { OtherProvider } from "./context/OtherContext";
+import { ThemeProvider } from "next-themes";
+// import { OtherProvider } from "./context/OtherContext";
 
 // * Because layout.tsx is only rendered on the server-side, we can use the
 // * ThemeProvider and OtherProvider components directly in the RootLayout
@@ -13,9 +12,5 @@ import { OtherProvider } from "./context/OtherContext";
 // * on both the server-side and the client-side.
 
 export default function Providers({ children }: { children: ReactNode }) {
-  return (
-    <ThemeProvider attribute="class">
-      <OtherProvider>{children}</OtherProvider>
-    </ThemeProvider>
-  );
+  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
 }

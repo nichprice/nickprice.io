@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "../components/navbar";
 import clsx from "clsx";
+import Providers from "@/components/providers";
 
 export default function RootLayout({
   children,
@@ -8,10 +9,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={clsx("text-black bg-white dark:text-white dark:bg-[#111010]")}
-    >
+    <html lang="en" className={clsx("text-black bg-white")}>
       <head>
         <link
           rel="apple-touch-icon"
@@ -35,8 +33,10 @@ export default function RootLayout({
       </head>
 
       <body>
-        <Navbar />
-        <main className="px-12">{children}</main>
+        <Providers>
+          <Navbar />
+          <main className="px-12">{children}</main>
+        </Providers>
       </body>
     </html>
   );

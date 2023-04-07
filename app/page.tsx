@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <section className="mx-auto px-10 py-10 ">
       <div>
-        <h1 className="text-5xl font-medium flex justify-center text-sky-600 dark:text-white">
+        <h1 className="text-5xl font-medium flex justify-center text-sky-600">
           Nick Price
         </h1>
-        <h4 className="py-3 text-2xl font-medium flex justify-center dark:text-slate-200">
+        <h4 className="py-3 text-2xl font-medium flex justify-center">
           Software Engineer
         </h4>
       </div>
@@ -63,7 +63,7 @@ export default function Home() {
         </a>
         <a
           href="https://github.com/nichprice"
-          className="text-[#171515] dark:text-white hover:opacity-80"
+          className="text-[#171515] hover:opacity-80"
         >
           <AiFillGithub />
         </a>
