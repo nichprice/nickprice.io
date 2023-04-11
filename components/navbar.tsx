@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
+import Button from "./button";
 // import resume from "../../public/files/resume.pdf";
 
 const Navbar: React.FC = () => {
@@ -54,6 +55,7 @@ const Navbar: React.FC = () => {
               {link.title}
             </Link>
           ))}
+          <Button />
         </div>
       </div>
       <div
@@ -84,6 +86,7 @@ const Navbar: React.FC = () => {
               {link.title}
             </Link>
           ))}
+          <Button />
         </div>
       </div>
     </nav>

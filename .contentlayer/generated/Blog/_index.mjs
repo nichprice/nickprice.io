@@ -4,10 +4,8 @@ import callbackFunctionsMd from './callback-functions.md.json' assert { type: 'j
 import inverseDataFlowMd from './inverse-data-flow.md.json' assert { type: 'json' }
 import nextjsMd from './nextjs.md.json' assert { type: 'json' }
 import nextjs2Md from './nextjs2.md.json' assert { type: 'json' }
-import post_01Md from './post-01.md.json' assert { type: 'json' }
-import post_02Md from './post-02.md.json' assert { type: 'json' }
 import reactRouter_6Md from './react-router-6.md.json' assert { type: 'json' }
 import rubyRailsMd from './ruby-rails.md.json' assert { type: 'json' }
 import sqlMd from './sql.md.json' assert { type: 'json' }
 
-export const allBlogs = [callbackFunctionsMd, inverseDataFlowMd, nextjsMd, nextjs2Md, post_01Md, post_02Md, reactRouter_6Md, rubyRailsMd, sqlMd]
+export const allBlogs = [callbackFunctionsMd, inverseDataFlowMd, nextjsMd, nextjs2Md, reactRouter_6Md, rubyRailsMd, sqlMd]
